@@ -1859,12 +1859,347 @@ CMakeFiles/Drone.dir/USER/src/system_stm32f4xx.c.o: ../USER/src/system_stm32f4xx
 
 CMakeFiles/Drone.dir/os/src/app_hooks.c.o: ../os/src/app_hooks.c \
   ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_core.c.o: ../os/src/os_core.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
   ../os/inc/ucos_ii.h \
   ../os/inc/os_trace.h \
-  ../os/inc/os_cfg.h
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
 
+CMakeFiles/Drone.dir/os/src/os_cpu.c.o: ../os/src/os_cpu.c \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o: ../os/src/os_dbg_r.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_flag.c.o: ../os/src/os_flag.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_mbox.c.o: ../os/src/os_mbox.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_mem.c.o: ../os/src/os_mem.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_mutex.c.o: ../os/src/os_mutex.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_q.c.o: ../os/src/os_q.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_sem.c.o: ../os/src/os_sem.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_task.c.o: ../os/src/os_task.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_time.c.o: ../os/src/os_time.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+CMakeFiles/Drone.dir/os/src/os_tmr.c.o: ../os/src/os_tmr.c \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/app_cfg.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  ../os/inc/os.h \
+  ../os/inc/os_cpu.h \
+  ../os/inc/ucos_ii.h \
+  ../os/inc/os_trace.h \
+  ../os/inc/os_cfg.h \
+  ../os/inc/os_cpu.h
+
+
+../os/src/os_q.c:
+
+../os/src/os_mem.c:
+
+../os/src/os_mbox.c:
+
+../os/src/os_dbg_r.c:
+
+../os/src/os_task.c:
+
+../os/inc/app_cfg.h:
 
 ../os/inc/ucos_ii.h:
+
+../os/inc/os_cpu.h:
 
 ../os/inc/os.h:
 
@@ -1905,6 +2240,8 @@ CMakeFiles/Drone.dir/os/src/app_hooks.c.o: ../os/src/app_hooks.c \
 ../FWLIB/src/stm32f4xx_adc.c:
 
 ../FWLIB/inc/stm32f4xx_adc.h:
+
+../os/src/os_tmr.c:
 
 ../FWLIB/src/stm32f4xx_i2c.c:
 
@@ -1969,6 +2306,8 @@ CMakeFiles/Drone.dir/os/src/app_hooks.c.o: ../os/src/app_hooks.c \
 ../USER/inc/system_stm32f4xx.h:
 
 ../FWLIB/inc/stm32f4xx_crc.h:
+
+../os/src/os_mutex.c:
 
 ../FWLIB/inc/stm32f4xx_dbgmcu.h:
 
@@ -2046,6 +2385,8 @@ CMakeFiles/Drone.dir/os/src/app_hooks.c.o: ../os/src/app_hooks.c \
 
 ../FWLIB/src/stm32f4xx_pwr.c:
 
+../os/src/os_core.c:
+
 ../FWLIB/src/stm32f4xx_qspi.c:
 
 ../FWLIB/src/stm32f4xx_rtc.c:
@@ -2055,6 +2396,10 @@ CMakeFiles/Drone.dir/os/src/app_hooks.c.o: ../os/src/app_hooks.c \
 ../FWLIB/inc/stm32f4xx_rng.h:
 
 ../FWLIB/inc/stm32f4xx_sai.h:
+
+../os/src/os_time.c:
+
+../os/src/os_flag.c:
 
 ../CORE/core_cmInstr.h:
 
@@ -2084,7 +2429,11 @@ CMakeFiles/Drone.dir/os/src/app_hooks.c.o: ../os/src/app_hooks.c \
 
 ../HARDWARE/inc/HMC5883L.h:
 
+../os/src/os_cpu.c:
+
 /opt/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h:
+
+../os/src/os_sem.c:
 
 ../FWLIB/inc/stm32f4xx_sdio.h:
 

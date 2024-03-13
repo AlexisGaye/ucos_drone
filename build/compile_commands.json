@@ -271,6 +271,11 @@
 },
 {
   "directory": "/home/alexis/Project/uCOS_Drone/build",
+  "command": "arm-none-eabi-gcc  -I/home/alexis/Project/uCOS_Drone/CORE -I/home/alexis/Project/uCOS_Drone/FWLIB/inc -I/home/alexis/Project/uCOS_Drone/HARDWARE/inc -I/home/alexis/Project/uCOS_Drone/SYSTEM/inc -I/home/alexis/Project/uCOS_Drone/USER/inc -I/home/alexis/Project/uCOS_Drone/os/inc -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body -std=c99 -o CMakeFiles/Drone.dir/os/src/os_cpu.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_cpu.c",
+  "file": "/home/alexis/Project/uCOS_Drone/os/src/os_cpu.c"
+},
+{
+  "directory": "/home/alexis/Project/uCOS_Drone/build",
   "command": "arm-none-eabi-gcc  -I/home/alexis/Project/uCOS_Drone/CORE -I/home/alexis/Project/uCOS_Drone/FWLIB/inc -I/home/alexis/Project/uCOS_Drone/HARDWARE/inc -I/home/alexis/Project/uCOS_Drone/SYSTEM/inc -I/home/alexis/Project/uCOS_Drone/USER/inc -I/home/alexis/Project/uCOS_Drone/os/inc -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body -std=c99 -o CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_dbg_r.c",
   "file": "/home/alexis/Project/uCOS_Drone/os/src/os_dbg_r.c"
 },

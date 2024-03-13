@@ -1,7 +1,5 @@
-CMakeFiles/Drone.dir/os/src/app_hooks.c.o: \
- /home/alexis/Project/uCOS_Drone/os/src/app_hooks.c \
- /home/alexis/Project/uCOS_Drone/os/inc/os.h \
- /home/alexis/Project/uCOS_Drone/os/inc/os_cpu.h \
+CMakeFiles/Drone.dir/os/src/os_mem.c.o: \
+ /home/alexis/Project/uCOS_Drone/os/src/os_mem.c \
  /home/alexis/Project/uCOS_Drone/os/inc/ucos_ii.h \
  /home/alexis/Project/uCOS_Drone/os/inc/app_cfg.h \
  /opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
@@ -22,6 +20,8 @@ CMakeFiles/Drone.dir/os/src/app_hooks.c.o: \
  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /opt/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
  /home/alexis/Project/uCOS_Drone/os/inc/os.h \
+ /home/alexis/Project/uCOS_Drone/os/inc/os_cpu.h \
+ /home/alexis/Project/uCOS_Drone/os/inc/ucos_ii.h \
  /home/alexis/Project/uCOS_Drone/os/inc/os_trace.h \
  /home/alexis/Project/uCOS_Drone/os/inc/os_cfg.h \
  /home/alexis/Project/uCOS_Drone/os/inc/os_cpu.h

@@ -825,10 +825,24 @@ CMakeFiles/Drone.dir/os/src/os_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Drone.dir/os/src/os_core.c.s"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alexis/Project/uCOS_Drone/os/src/os_core.c -o CMakeFiles/Drone.dir/os/src/os_core.c.s
 
+CMakeFiles/Drone.dir/os/src/os_cpu.c.o: CMakeFiles/Drone.dir/flags.make
+CMakeFiles/Drone.dir/os/src/os_cpu.c.o: ../os/src/os_cpu.c
+CMakeFiles/Drone.dir/os/src/os_cpu.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Drone.dir/os/src/os_cpu.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_cpu.c.o -MF CMakeFiles/Drone.dir/os/src/os_cpu.c.o.d -o CMakeFiles/Drone.dir/os/src/os_cpu.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_cpu.c
+
+CMakeFiles/Drone.dir/os/src/os_cpu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Drone.dir/os/src/os_cpu.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alexis/Project/uCOS_Drone/os/src/os_cpu.c > CMakeFiles/Drone.dir/os/src/os_cpu.c.i
+
+CMakeFiles/Drone.dir/os/src/os_cpu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Drone.dir/os/src/os_cpu.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alexis/Project/uCOS_Drone/os/src/os_cpu.c -o CMakeFiles/Drone.dir/os/src/os_cpu.c.s
+
 CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o: ../os/src/os_dbg_r.c
 CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o -MF CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o.d -o CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_dbg_r.c
 
 CMakeFiles/Drone.dir/os/src/os_dbg_r.c.i: cmake_force
@@ -842,7 +856,7 @@ CMakeFiles/Drone.dir/os/src/os_dbg_r.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_flag.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_flag.c.o: ../os/src/os_flag.c
 CMakeFiles/Drone.dir/os/src/os_flag.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Drone.dir/os/src/os_flag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Drone.dir/os/src/os_flag.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_flag.c.o -MF CMakeFiles/Drone.dir/os/src/os_flag.c.o.d -o CMakeFiles/Drone.dir/os/src/os_flag.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_flag.c
 
 CMakeFiles/Drone.dir/os/src/os_flag.c.i: cmake_force
@@ -856,7 +870,7 @@ CMakeFiles/Drone.dir/os/src/os_flag.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_mbox.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_mbox.c.o: ../os/src/os_mbox.c
 CMakeFiles/Drone.dir/os/src/os_mbox.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Drone.dir/os/src/os_mbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Drone.dir/os/src/os_mbox.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_mbox.c.o -MF CMakeFiles/Drone.dir/os/src/os_mbox.c.o.d -o CMakeFiles/Drone.dir/os/src/os_mbox.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_mbox.c
 
 CMakeFiles/Drone.dir/os/src/os_mbox.c.i: cmake_force
@@ -870,7 +884,7 @@ CMakeFiles/Drone.dir/os/src/os_mbox.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_mem.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_mem.c.o: ../os/src/os_mem.c
 CMakeFiles/Drone.dir/os/src/os_mem.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Drone.dir/os/src/os_mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Drone.dir/os/src/os_mem.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_mem.c.o -MF CMakeFiles/Drone.dir/os/src/os_mem.c.o.d -o CMakeFiles/Drone.dir/os/src/os_mem.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_mem.c
 
 CMakeFiles/Drone.dir/os/src/os_mem.c.i: cmake_force
@@ -884,7 +898,7 @@ CMakeFiles/Drone.dir/os/src/os_mem.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_mutex.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_mutex.c.o: ../os/src/os_mutex.c
 CMakeFiles/Drone.dir/os/src/os_mutex.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Drone.dir/os/src/os_mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Drone.dir/os/src/os_mutex.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_mutex.c.o -MF CMakeFiles/Drone.dir/os/src/os_mutex.c.o.d -o CMakeFiles/Drone.dir/os/src/os_mutex.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_mutex.c
 
 CMakeFiles/Drone.dir/os/src/os_mutex.c.i: cmake_force
@@ -898,7 +912,7 @@ CMakeFiles/Drone.dir/os/src/os_mutex.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_q.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_q.c.o: ../os/src/os_q.c
 CMakeFiles/Drone.dir/os/src/os_q.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Drone.dir/os/src/os_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Drone.dir/os/src/os_q.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_q.c.o -MF CMakeFiles/Drone.dir/os/src/os_q.c.o.d -o CMakeFiles/Drone.dir/os/src/os_q.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_q.c
 
 CMakeFiles/Drone.dir/os/src/os_q.c.i: cmake_force
@@ -912,7 +926,7 @@ CMakeFiles/Drone.dir/os/src/os_q.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_sem.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_sem.c.o: ../os/src/os_sem.c
 CMakeFiles/Drone.dir/os/src/os_sem.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Drone.dir/os/src/os_sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Drone.dir/os/src/os_sem.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_sem.c.o -MF CMakeFiles/Drone.dir/os/src/os_sem.c.o.d -o CMakeFiles/Drone.dir/os/src/os_sem.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_sem.c
 
 CMakeFiles/Drone.dir/os/src/os_sem.c.i: cmake_force
@@ -926,7 +940,7 @@ CMakeFiles/Drone.dir/os/src/os_sem.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_task.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_task.c.o: ../os/src/os_task.c
 CMakeFiles/Drone.dir/os/src/os_task.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Drone.dir/os/src/os_task.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Drone.dir/os/src/os_task.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_task.c.o -MF CMakeFiles/Drone.dir/os/src/os_task.c.o.d -o CMakeFiles/Drone.dir/os/src/os_task.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_task.c
 
 CMakeFiles/Drone.dir/os/src/os_task.c.i: cmake_force
@@ -940,7 +954,7 @@ CMakeFiles/Drone.dir/os/src/os_task.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_time.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_time.c.o: ../os/src/os_time.c
 CMakeFiles/Drone.dir/os/src/os_time.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Drone.dir/os/src/os_time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Drone.dir/os/src/os_time.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_time.c.o -MF CMakeFiles/Drone.dir/os/src/os_time.c.o.d -o CMakeFiles/Drone.dir/os/src/os_time.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_time.c
 
 CMakeFiles/Drone.dir/os/src/os_time.c.i: cmake_force
@@ -954,7 +968,7 @@ CMakeFiles/Drone.dir/os/src/os_time.c.s: cmake_force
 CMakeFiles/Drone.dir/os/src/os_tmr.c.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/os/src/os_tmr.c.o: ../os/src/os_tmr.c
 CMakeFiles/Drone.dir/os/src/os_tmr.c.o: CMakeFiles/Drone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Drone.dir/os/src/os_tmr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Drone.dir/os/src/os_tmr.c.o"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Drone.dir/os/src/os_tmr.c.o -MF CMakeFiles/Drone.dir/os/src/os_tmr.c.o.d -o CMakeFiles/Drone.dir/os/src/os_tmr.c.o -c /home/alexis/Project/uCOS_Drone/os/src/os_tmr.c
 
 CMakeFiles/Drone.dir/os/src/os_tmr.c.i: cmake_force
@@ -967,7 +981,7 @@ CMakeFiles/Drone.dir/os/src/os_tmr.c.s: cmake_force
 
 CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.o: CMakeFiles/Drone.dir/flags.make
 CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.o: ../CORE/startup_stm32f401xe.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building ASM object CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building ASM object CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.o"
 	arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.o -c /home/alexis/Project/uCOS_Drone/CORE/startup_stm32f401xe.s
 
 CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.i: cmake_force
@@ -1034,6 +1048,7 @@ Drone_OBJECTS = \
 "CMakeFiles/Drone.dir/USER/src/system_stm32f4xx.c.o" \
 "CMakeFiles/Drone.dir/os/src/app_hooks.c.o" \
 "CMakeFiles/Drone.dir/os/src/os_core.c.o" \
+"CMakeFiles/Drone.dir/os/src/os_cpu.c.o" \
 "CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o" \
 "CMakeFiles/Drone.dir/os/src/os_flag.c.o" \
 "CMakeFiles/Drone.dir/os/src/os_mbox.c.o" \
@@ -1103,6 +1118,7 @@ Drone: CMakeFiles/Drone.dir/USER/src/stm32f4xx_it.c.o
 Drone: CMakeFiles/Drone.dir/USER/src/system_stm32f4xx.c.o
 Drone: CMakeFiles/Drone.dir/os/src/app_hooks.c.o
 Drone: CMakeFiles/Drone.dir/os/src/os_core.c.o
+Drone: CMakeFiles/Drone.dir/os/src/os_cpu.c.o
 Drone: CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o
 Drone: CMakeFiles/Drone.dir/os/src/os_flag.c.o
 Drone: CMakeFiles/Drone.dir/os/src/os_mbox.c.o
@@ -1116,7 +1132,7 @@ Drone: CMakeFiles/Drone.dir/os/src/os_tmr.c.o
 Drone: CMakeFiles/Drone.dir/CORE/startup_stm32f401xe.s.o
 Drone: CMakeFiles/Drone.dir/build.make
 Drone: CMakeFiles/Drone.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking C executable Drone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking C executable Drone"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drone.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

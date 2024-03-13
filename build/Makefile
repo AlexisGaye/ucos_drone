@@ -1433,6 +1433,30 @@ os/src/os_core.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/os/src/os_core.c.s
 .PHONY : os/src/os_core.c.s
 
+os/src/os_cpu.o: os/src/os_cpu.c.o
+.PHONY : os/src/os_cpu.o
+
+# target to build an object file
+os/src/os_cpu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/os/src/os_cpu.c.o
+.PHONY : os/src/os_cpu.c.o
+
+os/src/os_cpu.i: os/src/os_cpu.c.i
+.PHONY : os/src/os_cpu.i
+
+# target to preprocess a source file
+os/src/os_cpu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/os/src/os_cpu.c.i
+.PHONY : os/src/os_cpu.c.i
+
+os/src/os_cpu.s: os/src/os_cpu.c.s
+.PHONY : os/src/os_cpu.s
+
+# target to generate assembly for a file
+os/src/os_cpu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/os/src/os_cpu.c.s
+.PHONY : os/src/os_cpu.c.s
+
 os/src/os_dbg_r.o: os/src/os_dbg_r.c.o
 .PHONY : os/src/os_dbg_r.o
 
@@ -1845,6 +1869,9 @@ help:
 	@echo "... os/src/os_core.o"
 	@echo "... os/src/os_core.i"
 	@echo "... os/src/os_core.s"
+	@echo "... os/src/os_cpu.o"
+	@echo "... os/src/os_cpu.i"
+	@echo "... os/src/os_cpu.s"
 	@echo "... os/src/os_dbg_r.o"
 	@echo "... os/src/os_dbg_r.i"
 	@echo "... os/src/os_dbg_r.s"

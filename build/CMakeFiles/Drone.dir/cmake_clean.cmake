@@ -108,6 +108,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Drone.dir/os/src/app_hooks.c.o.d"
   "CMakeFiles/Drone.dir/os/src/os_core.c.o"
   "CMakeFiles/Drone.dir/os/src/os_core.c.o.d"
+  "CMakeFiles/Drone.dir/os/src/os_cpu.c.o"
+  "CMakeFiles/Drone.dir/os/src/os_cpu.c.o.d"
   "CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o"
   "CMakeFiles/Drone.dir/os/src/os_dbg_r.c.o.d"
   "CMakeFiles/Drone.dir/os/src/os_flag.c.o"
