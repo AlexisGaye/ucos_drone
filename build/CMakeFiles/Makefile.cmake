@@ -104,5 +104,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Drone.elf.dir/DependInfo.cmake"
+  "CMakeFiles/Drone.dir/DependInfo.cmake"
   )
